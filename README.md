@@ -6,6 +6,8 @@ The project demonstrates fundamental backend concepts including authentication, 
 
 The application is designed using a modular architecture where each file has a specific responsibility.
 
+[![wakatime](https://wakatime.com/badge/user/fe9d0a56-e366-4369-9030-c96eee51ac5b/project/8a043bd1-7a58-49a9-b1e5-e28d2b9f907d.svg)](https://wakatime.com/badge/user/fe9d0a56-e366-4369-9030-c96eee51ac5b/project/8a043bd1-7a58-49a9-b1e5-e28d2b9f907d)
+
 ---
 
 #  Project Overview
