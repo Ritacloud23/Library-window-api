@@ -1,101 +1,62 @@
-BOOKS = [
+[
     {
         "id": 1,
         "title": "Things Fall Apart",
         "author": "Chinua Achebe",
-        "status": "on shelf",
+        "status": "on shelf"
     },
     {
         "id": 2,
         "title": "Purple Hibiscus",
         "author": "Chimamanda Adichie",
-        "status": "borrowed",
+        "status": "borrowed"
     },
     {
         "id": 3,
-        "title": "The Famished Road",
+        "title": "The Famished Road - Updated",
         "author": "Ben Okri",
-        "status": "on shelf",
+        "status": "on shelf"
     },
     {
         "id": 4,
         "title": "Sozaboy",
         "author": "Ken Saro-Wiwa",
-        "status": "on shelf",
+        "status": "on shelf"
     },
     {
         "id": 5,
         "title": "Jagua Nana",
         "author": "Cyprian Ekwensi",
-        "status": "borrowed",
+        "status": "borrowed"
     },
     {
         "id": 6,
         "title": "The Joys of Motherhood",
         "author": "Buchi Emecheta",
-        "status": "on shelf",
+        "status": "on shelf"
     },
     {
         "id": 7,
         "title": "Arrow of God",
         "author": "Chinua Achebe",
-        "status": "on shelf",
+        "status": "on shelf"
     },
     {
         "id": 8,
         "title": "Stay With Me",
         "author": "Ayobami Adebayo",
-        "status": "borrowed",
+        "status": "borrowed"
     },
     {
         "id": 9,
         "title": "The Fishermen",
         "author": "Chigozie Obioma",
-        "status": "on shelf",
+        "status": "on shelf"
     },
     {
         "id": 10,
         "title": "Half of a Yellow Sun",
         "author": "Chimamanda Adichie",
-        "status": "on shelf",
-    },
-]
-
-
-def get_books():
-    
-    return BOOKS
-
-def add_book(title, author):
-    new_id = max(book["id"] for book in BOOKS) + 1
-
-    new_book = {
-        "id": new_id,
-        "title": title,
-        "author": author,
-        "status": "on shelf",
+        "status": "on shelf"
     }
-
-    BOOKS.append(new_book)
-
-    return new_book
-
-def remove_book(book_id):
-    book = get_book(book_id)
-    if book is None:
-        return False
-
-    BOOKS.remove(book)
-
-    return True
-
-
-def get_book(book_id):
-
-    for book in BOOKS:
-        if book["id"] == book_id:
-            return book
-
-    return None
-
-
+]
